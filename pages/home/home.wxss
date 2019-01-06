@@ -1,0 +1,35 @@
+/* pages/home/home.wxss */
+.audiobtn{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.info{
+  font-size: 14px;
+}
+
+.dayimage{
+  width:100%;
+}
+
+.datainfo{
+  font-size: 10px;
+  color: gainsboro;
+  margin: 10px;
+  align-self: center;
+}
+
+.contentarea{
+  margin: 5px;
+}
+
+.notearea{
+  margin: 5px;
+}
+
+.statement{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

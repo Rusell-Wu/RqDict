@@ -1,0 +1,117 @@
+/* pages/detail/detail.wxss */
+.result{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.word{
+  display: flex;
+  flex-direction: row;
+}
+.wordtext{
+  font-size: 35px;
+  margin: 10px;
+}
+
+.phonetic{
+  margin: 10px;
+  font-size: 16px;
+}
+
+.paraphrase{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.collectTime{
+  font-size: 14px;
+  color: gainsboro;
+  margin: 10px;
+}
+
+.noteView{
+  margin: 10px;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.tipsView{
+  display: flex;
+  flex-direction: row;
+}
+
+.tip{
+  font-size: 16px;
+  color:black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.note{
+  font-size: 14px;
+  height: 100%;
+  width:92%;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.editBtn{
+  width: 53px;
+  margin-left: 3px;
+  vertical-align: top;
+}
+
+.editIcon{
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+  margin-right: 3px;
+}
+
+.editText{
+  font-size: 14px;
+  color:blueviolet;
+  vertical-align: center;
+}
+
+.editTA{
+  font-size: 14px;
+  height: 150px;
+  width:100%;
+  border-style: solid;      
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px;
+}
+
+.exampletipinfo{
+  font-size: 14px;
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  width:90%;
+  margin-left: 10px;
+  color: violet;
+}
+
+.examples{
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  line-height: 15px;
+}
+
+.example_en{
+  font-size: 12px;
+}
+
+.example_cn{
+  font-size: 12px;
+  color:gray;
+}

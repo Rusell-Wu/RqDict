@@ -1,0 +1,22 @@
+/* pages/translate/translate.wxss */
+
+.Text{
+  border-style: solid;
+  border-width: 1rpx;
+  margin: 5px;
+  padding: 2px;
+  width: 96%;
+}
+
+
+.submitbtn{
+  margin: 5px;
+}
+
+
+.copybtn{
+  font-size: 14px;
+  margin-left: 5px;
+  color: cornflowerblue;
+}
+

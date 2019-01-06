@@ -1,0 +1,14 @@
+<!--pages/about/about.wxml-->
+<view class='content'>
+  <text class="title">一、当前版本：2.0.0</text>
+  <text  class="title">二、升级日志：</text>
+  <text>1、从1.0.3版本到2.0.0版本经历了架构调整，由于1.0.3版本的架构缺陷，旧版本的用户数据将被清除，不便之处敬请谅解。</text>
+  <text>2、2.0.0版本新增单词例句功能，升级了生词本ui体验</text>
+</view>
+<view class='content'>
+  <text class="title">二、声明</text>
+  <text>1、本小程序为个人项目，不参与商业活动，仅用于学习交流。</text>
+  <text>2、本站资源均来源于网络，如有冒犯，请联系本作者QQ：947596534。</text>
+  <text>3、遇到反馈系统无法反馈时，请联系本作者。</text>
+  <text>4、欢迎访问我的网站rqdict.top</text>
+</view>

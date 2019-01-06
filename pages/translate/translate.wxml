@@ -1,0 +1,10 @@
+<!--pages/translate/translate.wxml-->
+<view>
+<form bindsubmit='formSubmit'>
+  <textarea  name="src" class="Text" placeholder='在此输入原文...'></textarea>
+
+  <button type="primary" form-type='submit' class="submitbtn">翻译</button>
+</form>
+  <textarea class="Text" placeholder='译文' value='{{result}}' disabled='true'></textarea>
+  <navigator class="copybtn" bindtap='copyResult' url='../translate/translate'>复制译文</navigator>
+</view>

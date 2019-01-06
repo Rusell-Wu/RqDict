@@ -1,0 +1,26 @@
+<!--pages/note/note.wxml-->
+<!--
+  <navigator url='../detail/detail?wordid={{item.wordId}}' class="ufwordItem">
+    <text>{{item.name}}</text>
+  </navigator>
+  -->
+
+  <view class="item-box">
+  <view class="items">
+    <scroll-view wx:for="{{wordlist}}"  wx:key="{{index}}"  class="item">
+      <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" bindtap='itemtap' data-index="{{index}}" style="{{item.txtStyle}}" class="inner txt">
+          <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"  data-index="{{index}}" class="nametxt">{{item.name}}</text>
+          <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"  data-index="{{index}}" class="paraphrasetxt">{{item.paraphrase}}</text>
+      </view>
+      <view data-index="{{index}}" bindtap = "delItem" class="inner del">删除</view>
+    </scroll-view>
+  </view>
+</view>
+
+
+
+
+
+<view class="defaultview" wx:if="{{count==0}}">
+  <text class="tip">空空如也，去查词页面收藏几个吧！</text>
+</view>

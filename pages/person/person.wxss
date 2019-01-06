@@ -1,0 +1,99 @@
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.genderimg{
+  width:15px;
+  height: 15px;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+.nickname{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.level{
+  font-size: 14px;
+  color: #aaa;
+}
+
+.unloginview{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuitem{
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 1px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding:10px; 
+  
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.menuicon{
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+  padding-top: 2px;
+
+}
+
+.menuItemText{
+  font-size: 18px;
+  margin-left: 10px;
+  vertical-align: bottom;
+
+}
+
+.sharebtn::after{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.sharebtn{
+  background-color: white;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.shareIcon{
+  width: 20px;
+  height: 20px;
+  vertical-align: center;
+  padding-top: 2px;
+}
+
+.shareText{
+  font-size: 18px;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+

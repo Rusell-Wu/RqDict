@@ -1,0 +1,39 @@
+<!--pages/query/query.wxml-->
+<view class="inputarea">
+  <input class="input" placeholder='请在此输入单词' placeholder-style='font-size:14px;'  bindinput='setQueryWord'></input>
+  <button class="querybtn" type="primary" bindtap='queryBtntap'>查词</button>
+</view>
+<view class="result" wx:if="{{result!=null&&result.id!=0}}">
+  <view class="word">
+    <text class="wordtext">{{result.name}}</text>
+  </view>
+    <view class="incognizant">
+      <view wx:if="{{!iscollected}}">
+          <image src="/images/collect.png" class="collectBtn" bindtap='collect'></image>
+      </view>
+      <view wx:if="{{iscollected}}">
+        <image src="/images/collect_ok.png" class="collectBtn" bindtap='collect'></image>
+      </view>
+      <text class="counttext">已有{{result.favnum}}人标记为生词</text>
+    </view>
+    
+  <view>
+    <text class="phonetic">[英][{{result.uKphonetic}}]</text>
+    <text class="phonetic">[美][{{result.uSphonetic}}]</text>
+  </view>
+  <view class="paraphrase">
+      <text>{{result.paraphrase}}</text>
+  </view>
+  <view wx:if="{{result.examples.length!=0}}"  class="exampletipinfo">
+      <text>双语例句</text>
+  </view>
+  <view class="examples"  wx:for="{{result.examples}}">
+    <view>
+        <text class="example_en">{{item.en}}</text>
+    </view>
+    <view>
+        <text class="example_cn">{{item.cn}}</text>
+    </view>
+  </view>
+</view>
+<view wx:elif="{{result!=null&&result.id==0}}">暂无该词释义</view>

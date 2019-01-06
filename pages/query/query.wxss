@@ -1,0 +1,100 @@
+/* pages/query/query.wxss */
+.input{
+  border-style: solid;
+  border-width: 1rpx;
+  border-color: gainsboro;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 80%;
+  font-size: 16px;
+  height: 36px;
+}
+.querybtn{
+ border-radius: 0px;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+ width:20%;
+ font-size: 15px;
+}
+
+
+.inputarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.result{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.word{
+  display: flex;
+  flex-direction: row;
+}
+.wordtext{
+  font-size: 35px;
+  margin: 10px;
+}
+
+.phonetic{
+  margin: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.paraphrase{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.collectBtn{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.counttext{
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top:12px; 
+  color: gray;
+}
+
+.incognizant{
+  display: flex;
+  flex-direction: row;
+}
+.exampletipinfo{
+  font-size: 14px;
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  width:90%;
+  margin-left: 10px;
+  color: violet;
+}
+.examples{
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  line-height: 15px;
+}
+
+.example_en{
+  font-size: 12px;
+}
+
+.example_cn{
+  font-size: 12px;
+  color:gray;
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/query/query",
+    "pages/translate/translate",
+    "pages/person/person",
+    "pages/note/note",
+    "pages/detail/detail",
+    "pages/level/level",
+    "pages/about/about",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "RQ词典",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/home_padding.png",
+        "iconPath": "images/home.png",
+        "text": "每日一句",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "selectedIconPath": "images/query_padding.png",
+        "iconPath": "images/query.png",
+        "text": "查词",
+        "pagePath": "pages/query/query"
+      },
+      {
+        "selectedIconPath": "images/trans_padding.png",
+        "iconPath": "images/trans.png",
+        "text": "翻译",
+        "pagePath": "pages/translate/translate"
+      },
+      {
+        "selectedIconPath": "images/user_padding.png",
+        "iconPath": "images/user.png",
+        "text": "个人",
+        "pagePath": "pages/person/person"
+      }
+    ]
+  }
+}

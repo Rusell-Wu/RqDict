@@ -1,0 +1,15 @@
+/* pages/about/about.wxss */
+text{
+  font-size: 14px;
+  margin: 5px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.title{
+  font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+<!--pages/level/level.wxml-->
+<view>
+  <view class="table">
+    <view class="tr">
+      <view class="th">头衔</view>
+      <view class="th">查词数</view>
+    </view>
+    <view class="tr">
+      <view class='td'> 童生 </view>
+      <view class="td"> 0-100 </view>
+    </view>
+    <view class="tr">
+      <view class='td'> 秀才 </view>
+      <view class="td"> 101-500 </view>
+    </view>
+    <view class="tr">
+      <view class='td'> 举人 </view>
+      <view class="td"> 501-1500 </view>
+    </view>
+    <view class="tr">
+      <view class='td'> 进士 </view>
+      <view class="td"> 1501-3000 </view>
+    </view>
+    <view class="tr">
+      <view class='td'> 探花 </view>
+      <view class="td"> 3001-5000 </view>
+    </view>
+    <view class="tr">
+      <view class='td'> 榜眼 </view>
+      <view class="td"> 5001-7500 </view>
+    </view>
+    <view class="tr">
+      <view class='td'> 状元 </view>
+      <view class="td"> 7500以上 </view>
+    </view>
+  </view>
+</view>

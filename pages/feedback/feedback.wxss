@@ -1,0 +1,24 @@
+/* pages/feedback/feedback.wxss */
+.input{
+  border-style: solid;
+  border-width: 1rpx;
+  border-color: gainsboro;
+  width: 91%;
+  font-size: 16px;
+  height: 30px;
+  margin: 10px;
+  padding: 4px;
+}
+
+.content{
+  border-style: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+  margin: 10px;
+  padding: 4px;
+  width: 91%;
+}
+
+.submitbtn{
+  margin: 10px;
+}

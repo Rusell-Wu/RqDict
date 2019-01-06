@@ -1,0 +1,6 @@
+<!--pages/feedback/feedback.wxml-->
+<form bindsubmit='formSubmit'>
+<input name="title" class="input" placeholder='标题，10字以内' placeholder-style='font-size:14px;'   maxlength='10'></input>
+<textarea name="content" class="content" placeholder='内容，200字以内' placeholder-style='font-size:14px;' maxlength='200'></textarea>
+<button type="primary" form-type='submit' class="submitbtn">提交</button>
+</form>

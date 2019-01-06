@@ -1,0 +1,43 @@
+
+  <view class="main">
+    <view class="unloginview" wx:if="{{!hasUserInfo && canIUse}}">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="/images/default_avatar.png" background-size="cover"></image>
+      <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+    </view>
+    <view wx:else>
+      <view class="userinfo">
+        <image  class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+        <view class="nickname">
+          <view>
+            <text>{{bguserInfo.nickname}}</text>
+            <image src="/images/male.png" class="genderimg" wx:if="{{bguserInfo.sex=='male'}}"></image>
+            <image src="/images/female.png" class="genderimg" wx:if="{{bguserInfo.sex=='female'}}"></image>
+          </view>
+          <view><text class="level">{{bguserInfo.level}}</text></view>
+        </view>
+      </view>
+      <view>
+          <navigator class="menuitem" url='../note/note'>
+            <image src="/images/note.png" class="menuicon"></image>
+            <text class="menuItemText">生词本</text>
+          </navigator>
+          <navigator class="menuitem" url='../level/level'>
+            <image src="/images/level.png" class="menuicon"></image>
+            <text class="menuItemText">头衔</text>
+          </navigator>
+          <button class="sharebtn" open-type='share'>
+            <image src="/images/share.png" class="shareIcon"></image>
+            <text class="shareText">分享给好友</text>
+          </button>
+          <navigator class="menuitem" url='../feedback/feedback'>
+            <image src="/images/feedback.png" class="menuicon"></image>
+            <text class="menuItemText">产品反馈</text>
+          </navigator>
+          <navigator class="menuitem" url='../about/about'>
+            <image src="/images/about.png" class="menuicon"></image>
+            <text class="menuItemText">关于</text>
+          </navigator>
+        </view>
+    </view>
+  </view>
+

@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<view wx:if="{{everydata!=null}}">
+  <image src='{{imageurl}}' class="dayimage"></image>
+  <view class="contentarea">
+    <text class="info">{{everydata.content}}</text>
+    <image src="/images/audio_padding.png" bindtap='playtts' class="audiobtn"></image>
+  </view>
+  <view class="notearea">
+    <text class="info">{{everydata.translation}}</text>
+  </view>
+</view>
