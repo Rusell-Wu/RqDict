@@ -31,7 +31,7 @@ App({
                   if (res1.code) {
                     //发起网络请求
                     wx.request({
-                      url: 'https://rqdict.top/api/user/wechat/' + res1.code,
+                      url: 'https://tebiezan.cn/api/user/wechat/' + res1.code,
                       method: "GET",
                       success: info => {
                         if (info.statusCode == 200) {
@@ -53,7 +53,7 @@ App({
                               if (res3.code) {
                                 //console.log(res.code);
                                 wx.request({
-                                  url: 'https://rqdict.top/api/user/wechat/' + res3.code,
+                                  url: 'https://tebiezan.cn/api/user/wechat/' + res3.code,
                                   method: "POST",
                                   header:{
                                     'content-type': 'application/x-www-form-urlencoded'
