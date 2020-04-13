@@ -41,8 +41,8 @@ Page({
       if (d.statusCode==200){
         that.setData({ 
           everydata: d.data,
-          ttsurl: "https://rqdict.top/mp3/" + d.data.date.substring(0, 10) + ".mp3",
-          imageurl: "https://rqdict.top/image/" + d.data.date.substring(0, 10) + ".jpg"
+          ttsurl: "https://tebiezan.cn/mp3/" + d.data.date.substring(0, 10) + ".mp3",
+          imageurl: "https://tebiezan.cn/image/" + d.data.date.substring(0, 10) + ".jpg"
         });
       }else{
         wx.showToast({
@@ -99,7 +99,7 @@ Page({
   getEveryday:function(fn){
     var today = new Date();
     wx.request({
-      url: 'https://rqdict.top/api/daily/sentence/default',
+      url: 'https://tebiezan.cn/api/daily/sentence/default',
       success: info => {
         fn(info);
       }

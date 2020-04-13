@@ -99,7 +99,7 @@ Page({
   getResult:function(fn){
     var that=this;
     wx.request({
-      url: 'https://rqdict.top/api/vocabulary/' + that.data.word,
+      url: 'https://tebiezan.cn/api/vocabulary/' + that.data.word,
       header:{
         token:app.getToken()
         },
@@ -170,7 +170,7 @@ Page({
     var that = this;
     var wordid = this.data.result.id;
     wx.request({
-      url: 'https://rqdict.top/api/user/collection/' + wordid,
+      url: 'https://tebiezan.cn/api/user/collection/' + wordid,
       method:"POST",
       header:{
         token:app.getToken(),

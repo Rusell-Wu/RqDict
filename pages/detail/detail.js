@@ -100,7 +100,7 @@ Page({
     var that=this;
     var id=this.data.id;
     wx.request({
-      url: 'https://rqdict.top/api/user/collection/'+id,
+      url: 'https://tebiezan.cn/api/user/collection/'+id,
       method:"GET",
       header:{
         token:app.getToken()
@@ -151,7 +151,7 @@ Page({
       duration: 10000
     });
     wx.request({
-      url: 'https://rqdict.top/api/user/collection/'+that.data.id,
+      url: 'https://tebiezan.cn/api/user/collection/'+that.data.id,
       method:"PUT",
       data:{
           remark:that.data.newInfo

@@ -34,7 +34,7 @@ Page({
       });
       app.refreshToken(function(token){
         wx.request({
-          url: 'https://rqdict.top/api/user/info',
+          url: 'https://tebiezan.cn/api/user/info',
           header: {
             token: token
           },
@@ -67,7 +67,7 @@ Page({
   {
     var that=this;
     wx.request({
-      url: 'https://rqdict.top/api/user/info',
+      url: 'https://tebiezan.cn/api/user/info',
       header: {
         token: app.getToken()
       },

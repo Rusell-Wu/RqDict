@@ -90,7 +90,7 @@ Page({
   {
     var that=this;
     wx.request({
-      url: 'https://rqdict.top/api/user/collection',
+      url: 'https://tebiezan.cn/api/user/collection',
       header:{
         token:app.getToken()
       },
@@ -111,7 +111,7 @@ Page({
   removeWord:function(id,fn){
     var that=this;
     wx.request({
-      url: 'https://rqdict.top/api/user/collection/'+id,
+      url: 'https://tebiezan.cn/api/user/collection/'+id,
       method:"DELETE",
       header:{
         token:app.getToken(),

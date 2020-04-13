@@ -128,12 +128,13 @@ Page({
       return;
     }
     wx.request({
-      url: 'https://rqdict.top/api/trans/'+src,
+      url: 'https://tebiezan.cn/api/trans/',
       method:"POST",
       header: {
         'content-type': 'application/x-www-form-urlencoded'
       },
       data:{
+        src:src,
         to:to
       },
       success:r=>{

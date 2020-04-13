@@ -91,7 +91,7 @@ Page({
         duration:10000
       });
       wx.request({
-        url: 'https://rqdict.top/api/feedback/wechat',
+        url: 'https://tebiezan.cn/api/feedback/wechat',
         method:"POST",
         header:{
           token: app.getToken(),
